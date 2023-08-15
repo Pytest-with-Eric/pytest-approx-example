@@ -2,6 +2,7 @@
 
 import pytest
 
+
 @pytest.mark.xfail(reason="This test is currently expected to fail")
 def test_approx_syntax():
     # Test case 1: Using default tolerance
@@ -29,7 +30,3 @@ def test_approx_syntax():
     assert actual_value_5 == pytest.approx(
         expected_value_5, abs=0.01, msg="Values not approximately equal"
     )
-
-
-# if __name__ == "__main__":
-#     pytest.main()

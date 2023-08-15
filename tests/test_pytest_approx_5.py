@@ -22,7 +22,3 @@ def test_numpy_assert_allclose():
     expected_result = 1.41421356
 
     np.testing.assert_allclose(result, expected_result, rtol=1e-5)
-
-
-# if __name__ == "__main__":
-#     pytest.main()

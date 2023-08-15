@@ -26,7 +26,3 @@ def test_numpy_array_comparison():
     calculated_result = calculate_square_elements(input_data)
 
     assert calculated_result == pytest.approx(expected_result, abs=1e-6)
-
-
-# if __name__ == "__main__":
-#     pytest.main()
