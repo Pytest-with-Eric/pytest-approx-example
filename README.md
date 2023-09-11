@@ -1,11 +1,11 @@
 # PyTest Aprox Example
 
-<!-- This repo contains the sample code for the article - [How to Use Hypothesis and Pytest for Robust Property-Based Testing in Python](https://pytest-with-eric.com/pytest-advanced/hypothesis-testing-python/) -->
+This repo contains the sample code for the article - [A Comprehensive Guide to Pytest Approx for Accurate Numeric Testing](https://pytest-with-eric.com/pytest-advanced/pytest-approx/) 
 
-<!-- This project explains how to Build a Shopping Cart App and apply property-based testing with Hypothesis and Pytest. -->
+This project explains how to use Pytest Approx to test Numerical Precision specific code.
 
 # Requirements
-* Python (3.10.10)
+* Python (3.11.4)
 
 Please install the dependencies via the `requirements.txt` file using 
 ```commandline
